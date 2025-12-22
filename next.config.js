@@ -2,9 +2,10 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+  output: 'standalone',
   images: {
     domains: ['images.unsplash.com'],
-    unoptimized: process.env.NODE_ENV === 'development',
+    unoptimized: true,
   }
 }
 
