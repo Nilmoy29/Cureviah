@@ -1,0 +1,53 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#be185d;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ec4899;stop-opacity:1" />
+    </linearGradient>
+    <!-- Icon gradients -->
+    <linearGradient id="iconGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f5f5f5;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#bgGradient)" />
+  
+  <!-- Decorative elements -->
+  <circle cx="150" cy="150" r="40" fill="white" opacity="0.1" />
+  <circle cx="650" cy="180" r="50" fill="white" opacity="0.1" />
+  <circle cx="250" cy="100" r="30" fill="white" opacity="0.1" />
+  <circle cx="700" cy="350" r="60" fill="white" opacity="0.1" />
+  <circle cx="400" cy="450" r="45" fill="white" opacity="0.1" />
+  
+  <!-- Abstract medical illustrations -->
+  <!-- Circle of Life / Fertility Symbol -->
+  <circle cx="400" cy="250" r="100" fill="none" stroke="white" stroke-width="5" opacity="0.7" />
+  <circle cx="400" cy="250" r="80" fill="none" stroke="white" stroke-width="3" opacity="0.7" />
+  
+  <!-- Female symbol stylized -->
+  <circle cx="400" cy="220" r="40" fill="none" stroke="white" stroke-width="6" opacity="0.8" />
+  <line x1="400" y1="260" x2="400" y2="320" stroke="white" stroke-width="6" opacity="0.8" />
+  <line x1="370" y1="290" x2="430" y2="290" stroke="white" stroke-width="6" opacity="0.8" />
+  
+  <!-- DNA helix abstract representation -->
+  <path d="M250,150 Q300,200 250,250 Q200,300 250,350" fill="none" stroke="white" stroke-width="4" opacity="0.6" />
+  <path d="M250,150 Q200,200 250,250 Q300,300 250,350" fill="none" stroke="white" stroke-width="4" opacity="0.6" />
+  
+  <!-- Connection dots on DNA -->
+  <circle cx="250" cy="150" r="6" fill="white" />
+  <circle cx="250" cy="200" r="6" fill="white" />
+  <circle cx="250" cy="250" r="6" fill="white" />
+  <circle cx="250" cy="300" r="6" fill="white" />
+  <circle cx="250" cy="350" r="6" fill="white" />
+  
+  <!-- Abstract baby silhouette -->
+  <ellipse cx="550" cy="270" rx="35" ry="45" fill="white" opacity="0.7" />
+  <circle cx="550" cy="210" r="25" fill="white" opacity="0.7" />
+  
+  <!-- Text -->
+  <text x="400" y="120" font-family="Arial" font-size="42" font-weight="bold" fill="white" text-anchor="middle" dominant-baseline="middle" text-shadow="0 0 5px #881337">Fertility Treatment</text>
+  <text x="400" y="400" font-family="Arial" font-size="24" fill="white" text-anchor="middle" dominant-baseline="middle" text-shadow="0 0 5px #881337">Advanced Reproductive Technology</text>
+</svg> 

@@ -1,0 +1,28 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gradient Background -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1E40AF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3B82F6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="url(#bgGradient)" />
+  
+  <!-- Stylized Seoul Skyline -->
+  <path d="M0,450 L50,450 L70,380 L90,450 L120,450 L140,300 L160,450 L190,450 L210,350 L230,450 L260,450 L280,380 L300,450 L330,450 L350,320 L370,450 L400,450 L420,380 L440,450 L470,450 L490,300 L510,450 L540,450 L560,350 L580,450 L610,450 L630,380 L650,450 L680,450 L700,320 L720,450 L750,450 L770,380 L800,450 L800,600 L0,600 Z" fill="#0F2447" />
+  
+  <!-- N Seoul Tower -->
+  <rect x="390" y="200" width="20" height="200" fill="#0F2447" />
+  <ellipse cx="400" cy="190" rx="30" ry="15" fill="#0F2447" />
+  
+  <!-- Text -->
+  <text x="400" y="150" font-family="Arial, sans-serif" font-size="50" font-weight="bold" fill="white" text-anchor="middle">Seoul</text>
+  <text x="400" y="200" font-family="Arial, sans-serif" font-size="24" fill="white" text-anchor="middle">South Korea's Capital</text>
+  
+  <!-- Decorative Elements -->
+  <circle cx="150" cy="150" r="30" fill="white" opacity="0.1" />
+  <circle cx="650" cy="180" r="50" fill="white" opacity="0.1" />
+  <circle cx="250" cy="100" r="20" fill="white" opacity="0.1" />
+</svg> 
